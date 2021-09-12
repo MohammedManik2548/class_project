@@ -32,7 +32,7 @@ class TopicPage extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            topics.classTopics,
+                            topics.classTopics[index],
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 20,

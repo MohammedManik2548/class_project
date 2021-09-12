@@ -1,6 +1,6 @@
 class Class {
   String className;
-  String classTopics;
+  List<String> classTopics;
   String classDetails;
 
   Class(

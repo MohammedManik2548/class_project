@@ -5,30 +5,38 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   final List<Class> classes = [
-    Class(className: 'Class1', classTopics: 'Git', classDetails: 'Learn git'),
+    Class(
+        className: 'Class1',
+        classTopics: [
+          'git',
+          'gitHub',
+          'hip',
+          'hip',
+        ],
+        classDetails: 'Learn git'),
     Class(
         className: 'Class2',
-        classTopics: 'abstraction',
+        classTopics: ['abstraction'],
         classDetails: 'learn abstraction'),
     Class(
         className: 'Class3',
-        classTopics: 'abstraction',
+        classTopics: ['abstraction'],
         classDetails: 'learn abstraction'),
     Class(
         className: 'Class4',
-        classTopics: 'inheritance',
+        classTopics: ['inheritance'],
         classDetails: 'learn abstraction'),
     Class(
         className: 'Class5',
-        classTopics: 'encapsulation',
+        classTopics: ['encapsulation'],
         classDetails: 'learn abstraction'),
     Class(
         className: 'Class6',
-        classTopics: 'polymorphysm',
+        classTopics: ['polymorphysm'],
         classDetails: 'learn abstraction'),
     Class(
         className: 'Class7',
-        classTopics: 'solid principle"',
+        classTopics: ['solid principle'],
         classDetails: 'learn abstraction'),
   ];
 
